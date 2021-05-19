@@ -30,24 +30,47 @@ export interface PaletteOutput<T = unknown> {
   name: string;
   params?: T;
 }
+
+// Default
+// export const defaultCustomColors = [
+//   // This set of defaults originated in Canvas, which, at present, is the primary
+//   // consumer of this function.  Changing this default requires a change in Canvas
+//   // logic, which would likely be a breaking change in 7.x.
+//   '#882E72',
+//   '#B178A6',
+//   '#D6C1DE',
+//   '#1965B0',
+//   '#5289C7',
+//   '#7BAFDE',
+//   '#4EB265',
+//   '#90C987',
+//   '#CAE0AB',
+//   '#F7EE55',
+//   '#F6C141',
+//   '#F1932D',
+//   '#E8601C',
+//   '#DC050C',
+// ];
+
+// RWI May 19 2021
 export const defaultCustomColors = [
   // This set of defaults originated in Canvas, which, at present, is the primary
   // consumer of this function.  Changing this default requires a change in Canvas
   // logic, which would likely be a breaking change in 7.x.
-  '#882E72',
-  '#B178A6',
-  '#D6C1DE',
-  '#1965B0',
-  '#5289C7',
-  '#7BAFDE',
-  '#4EB265',
-  '#90C987',
-  '#CAE0AB',
-  '#F7EE55',
-  '#F6C141',
-  '#F1932D',
-  '#E8601C',
-  '#DC050C',
+  '#756391',
+  '#a2a0ca',
+  '#c4c3e6',
+  '#ff8706',
+  '#ffb764',
+  '#fed6a7',
+  '#cb3f00',
+  '#da632e',
+  '#e59a78',
+  '#235894',
+  '#149ec0',
+  '#7ddbe9',
+  '#5b4851',
+  '#a8989c'
 ];
 
 export function palette(): ExpressionFunctionDefinition<
